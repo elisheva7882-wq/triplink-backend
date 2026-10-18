@@ -1,0 +1,6 @@
+@TripLink_HostAddress = http://localhost:5106
+
+GET {{TripLink_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

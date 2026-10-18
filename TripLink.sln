@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.API", "TripLink\TripLink.API.csproj", "{CA67F773-D6EE-4CBC-8B22-5EBA80620EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.Core", "TripLink.Core\TripLink.Core.csproj", "{C0DC2213-286D-4C06-B2CE-84DF6FB91A4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.Data", "TripLink.Data\TripLink.Data.csproj", "{0B7F5489-F349-41B0-85E6-DBC15E42357F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.Service", "TripLink.Service\TripLink.Service.csproj", "{8E7663AF-0619-4723-98A9-55066D247C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.Tests", "TripLink.Tests\TripLink.Tests.csproj", "{0FD9992A-F579-4800-A120-27193407F67F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripLink.IntegrationTests", "TripLink.IntegrationTests\TripLink.IntegrationTests.csproj", "{78E6AAFE-A503-4EE0-97AF-4BCD0CCE1ADA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA67F773-D6EE-4CBC-8B22-5EBA80620EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA67F773-D6EE-4CBC-8B22-5EBA80620EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA67F773-D6EE-4CBC-8B22-5EBA80620EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA67F773-D6EE-4CBC-8B22-5EBA80620EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0DC2213-286D-4C06-B2CE-84DF6FB91A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0DC2213-286D-4C06-B2CE-84DF6FB91A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0DC2213-286D-4C06-B2CE-84DF6FB91A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0DC2213-286D-4C06-B2CE-84DF6FB91A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7F5489-F349-41B0-85E6-DBC15E42357F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7F5489-F349-41B0-85E6-DBC15E42357F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7F5489-F349-41B0-85E6-DBC15E42357F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7F5489-F349-41B0-85E6-DBC15E42357F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7663AF-0619-4723-98A9-55066D247C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7663AF-0619-4723-98A9-55066D247C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7663AF-0619-4723-98A9-55066D247C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7663AF-0619-4723-98A9-55066D247C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD9992A-F579-4800-A120-27193407F67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD9992A-F579-4800-A120-27193407F67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD9992A-F579-4800-A120-27193407F67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD9992A-F579-4800-A120-27193407F67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E6AAFE-A503-4EE0-97AF-4BCD0CCE1ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E6AAFE-A503-4EE0-97AF-4BCD0CCE1ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E6AAFE-A503-4EE0-97AF-4BCD0CCE1ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E6AAFE-A503-4EE0-97AF-4BCD0CCE1ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0C9EF04-58FF-414B-8FE8-70D685D1A23D}
+	EndGlobalSection
+EndGlobal

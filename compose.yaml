@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: triplink-postgres
+    environment:
+      POSTGRES_DB: triplink_db
+      POSTGRES_USER: triplink_user
+      POSTGRES_PASSWORD: triplink_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - triplink-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  triplink-postgres-data:
